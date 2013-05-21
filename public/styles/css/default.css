@@ -1,0 +1,53 @@
+/*
+* Custom styling for ridehardrentals.com
+* Trever Pehrson 
+*/
+/* line 7, /Applications/MAMP/htdocs/ridehard/public/styles/less/default.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/ridehard\/public\/styles\/less\/default\.less}line{font-family:\000037}}
+body {
+  background-color: #BAB5B5;
+  width: 1024px;
+  height: 768px;
+}
+/* navbar wrapper */
+/* line 14, /Applications/MAMP/htdocs/ridehard/public/styles/less/default.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/ridehard\/public\/styles\/less\/default\.less}line{font-family:\0000314}}
+.wrapper {
+  margin-bottom: 80px;
+}
+/* line 18, /Applications/MAMP/htdocs/ridehard/public/styles/less/default.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/ridehard\/public\/styles\/less\/default\.less}line{font-family:\0000318}}
+.brand {
+  margin-right: 70px;
+}
+/* line 22, /Applications/MAMP/htdocs/ridehard/public/styles/less/default.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/ridehard\/public\/styles\/less\/default\.less}line{font-family:\0000322}}
+.nav {
+  color: white;
+}
+/* line 25, /Applications/MAMP/htdocs/ridehard/public/styles/less/default.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/ridehard\/public\/styles\/less\/default\.less}line{font-family:\0000325}}
+.nav li {
+  margin: 10px;
+  padding-right: 30px;
+}
+/* line 32, /Applications/MAMP/htdocs/ridehard/public/styles/less/default.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/ridehard\/public\/styles\/less\/default\.less}line{font-family:\0000332}}
+.navbar-inner {
+  height: 180px;
+  background-color: #161515;
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#242323), to(#1a1919));
+  background-image: -webkit-linear-gradient(#242323, #1a1919);
+  background-image: -moz-linear-gradient(#242323, #1a1919);
+  background-image: -o-linear-gradient(#242323, #1a1919);
+  background-image: linear-gradient(#242323, #1a1919);
+  background-repeat: repeat-x;
+  border: 1px solid #1a1919;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
+  -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
+  *zoom: 1;
+}

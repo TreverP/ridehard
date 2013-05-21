@@ -3,7 +3,7 @@
 <head>
 	<title> {{ $title }} </title>
 	{{ HTML::style('/styles/css/bootstrap.css') }}
-	{{ HTML::style('/styles/css/custom.css') }}
+	{{ HTML::style('/styles/css/default.css') }}
 </head>
 
 <body>
@@ -17,9 +17,9 @@
 					<li>Comments</li>
 					<li>Contact Us</li>
 				</ul>
-			</div>
-		</div>
-	</div>	
+			</div> <!-- .navbar-inner -->
+		</div> <!-- .navbar .navbar-fixed-top -->
+	</div>	<!-- .wrapper -->
 
 	@yield('content')
 </body>
